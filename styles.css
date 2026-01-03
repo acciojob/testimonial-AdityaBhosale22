@@ -1,1 +1,42 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.main-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Shared style for both boxes */
+.testimonial-box {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Thin light gray border */
+    padding: 20px 25px; /* Spacing inside the box */
+    margin-bottom: 15px; /* Space between boxes */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Optional: very subtle shadow */
+}
+
+/* Styling for the testimonial text */
+.testimonial-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0; /* Remove default paragraph margins */
+}
+
+/* Specific styling for the author name */
+.author {
+    font-style: italic;
+    text-align: right; /* Moves the name to the right side */
+    margin-top: 15px !important; /* Adds space between text and name */
+    font-weight: bold;
+}
